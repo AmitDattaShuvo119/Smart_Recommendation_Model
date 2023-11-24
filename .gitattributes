@@ -1,0 +1,2 @@
+model_directory/model.safetensors filter=lfs diff=lfs merge=lfs -text
+bert_sentiment_model.pth filter=lfs diff=lfs merge=lfs -text

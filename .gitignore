@@ -1,3 +1,5 @@
+model_directory/model.safetensors
+bert_sentiment_model.pth
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
