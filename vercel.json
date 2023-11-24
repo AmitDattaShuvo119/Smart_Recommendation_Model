@@ -1,7 +1,6 @@
 {
   "functions": {
-    "api": {
-      "handler": "api/mergedModel.app",
+    "api/mergedModel": {
       "runtime": "vercel-python@0.28.0"
     }
   },
