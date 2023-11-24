@@ -1,0 +1,16 @@
+{
+  "functions": {
+    "api": {
+      "handler": "api/mergedModel.app",
+      "runtime": "vercel-python@0.28.0"
+    }
+  },
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/mergedModel.py" },
+    { "src": "/(.*)", "dest": "/api/mergedModel.py" }
+  ],
+  "env": {
+    "FLASK_ENV": "production",
+    "PYTHONUNBUFFERED": "true"
+  }
+}

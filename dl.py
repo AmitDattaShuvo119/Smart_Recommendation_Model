@@ -115,7 +115,7 @@ for batch in test_loader:
     preds = torch.argmax(logits, dim=1)
 
     all_preds.extend(preds.cpu().numpy())
-    all_labels.extend(labels.cpu().numpy())
+    all_labels.extend(labels.cpu().numpy())d
 
 # Calculate accuracy and generate classification report
 accuracy = accuracy_score(all_labels, all_preds)
